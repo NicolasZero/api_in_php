@@ -1,5 +1,5 @@
 <?php
-  $ruta = '../../img/ibuki2.jpg';
+  $ruta = '../../img/ibuki.jpg';
   if (is_file($ruta)) {
     $datos = base64_encode(file_get_contents($ruta));
     $src = 'data:image/jpeg;base64,' . $datos;
